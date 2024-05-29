@@ -77,7 +77,7 @@ def preencher_planilha_com_multas(planilha_path):
         messagebox.showinfo("Sucesso", "Planilha atualizada com sucesso!")
         logging.info("Planilha atualizada com sucesso.")
 
-        # Abrir o arquivo automaticamente após a criação
+        
         os.startfile("resultado_multas.xlsx")
         
     except Exception as e:
